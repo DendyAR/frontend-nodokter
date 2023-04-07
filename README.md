@@ -1,46 +1,72 @@
-# Getting Started with Create React App and Redux
+# Front End Kurang Guru App
+### This App Using Next JS Framework
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+### **Depedencies** :
+```
+1. React JS
+2. Tailwind CSS 
+3. Axios (library Fecthing Data From API)
+4. Redux Tolkit
+```
+## Folder Structure
 
-## Available Scripts
+    ├── app                   
+    │   ├── store.js        
+    ├── components
+    │   ├── FormAddProducts.jsx
+    │   ├── FormEditProducts.jsx         
+    │   ├── Navbar.jsx         
+    │   ├── ProductDetail.jsx         
+    │   ├── ProductTabel.jsx         
+    ├── features
+    │   ├── authSlice.js        
+    ├── pages
+    │   ├── AddProducts.jsx              
+    │   ├── Dashboard.jsx              
+    │   ├── EditProducts.js             
+    │   ├── Layout.js
+    |   ├── Loginics.js
+    |   └── Prodcuts.js
+    |   └── Register.js
+    └── tailwind.config.js
 
-In the project directory, you can run:
 
-### `npm start`
+### **Image :**
+```
+Auth Page
+```
+| Dekstop  | Mobile |
+| - | - |
+|> **Login Page**|
+| ![Desktop](https://user-images.githubusercontent.com/49930719/121392502-a916c680-c979-11eb-9292-75ff06b64bb7.PNG)   | !![Mobile](https://user-images.githubusercontent.com/49930719/121392666-cc417600-c979-11eb-8335-f648a13bcab0.PNG) |
+| ![ErrorDesktop](https://user-images.githubusercontent.com/49930719/121392888-fe52d800-c979-11eb-9fe1-3403c69f65fe.PNG) | ![ErrorMobile](https://user-images.githubusercontent.com/49930719/121392986-14f92f00-c97a-11eb-9791-ecaabf3fe5dd.PNG)  |
+|> **Register Page**|
+| ![Desktop](https://user-images.githubusercontent.com/49930719/121393231-5a1d6100-c97a-11eb-86bb-e91a3a0eebe7.PNG)   | ![Mobile](https://user-images.githubusercontent.com/49930719/121393325-6f928b00-c97a-11eb-8722-64054394bfa8.PNG) |
+```
+Forgot Password
+```
+| Dekstop  | Mobile |
+| - | - |
+|![Desktop](https://user-images.githubusercontent.com/49930719/121393780-e2036b00-c97a-11eb-8d54-7592c2a40f81.PNG)|![Mobile](https://user-images.githubusercontent.com/49930719/121393846-f21b4a80-c97a-11eb-80d4-519c88d1a719.PNG)|
+|![Vdekstop](https://user-images.githubusercontent.com/49930719/121394011-20008f00-c97b-11eb-9e2d-5ed0b3f8b9ca.PNG)|**Coming Soon...**|
+```
+User Page
+```
+| Dekstop  | Mobile |
+| - | - |
+|>**Dashboard**||
+|![Desktop](https://i.ibb.co/84dJHFm/Capture1.png)|**Coming Soon ...**|
+|>**Profile**||
+|![Profile](https://i.ibb.co/Zh1hdvm/Capture.png)|**Coming Soon ...**|
+```
+Fasilitator Page
+```
+| Desktop | Mobile |
+| - | - |
+|>**Dashboard**|
+|![Activity](https://user-images.githubusercontent.com/49930719/121395264-6e625d80-c97c-11eb-995f-d405b04cb78e.PNG)|**Coming Soon...**|
+|>**Activity**|
+|![Activity](https://user-images.githubusercontent.com/49930719/121395632-d749d580-c97c-11eb-9e59-4bf1ac1f8808.PNG)|![Activitym](https://user-images.githubusercontent.com/49930719/121395366-8c2fc280-c97c-11eb-8fe3-6c5021060b2e.PNG)|
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+> **Resources :**
+1. [Backend](https://github.com/MemorableTeam/kurangguru-backend)
